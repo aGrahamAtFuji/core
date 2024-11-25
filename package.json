@@ -1,6 +1,6 @@
 {
   "name": "@gtm-support/core",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Core implementation for Google Tag Manager support",
   "scripts": {
     "clean": "rimraf coverage .eslintcache lib pnpm-lock.yaml node_modules",
@@ -30,15 +30,15 @@
     "google"
   ],
   "author": {
-    "name": "Christopher Quadflieg",
-    "email": "chrissi92@hotmail.de",
-    "url": "https://github.com/Shinigami92"
+    "name": "Aaron Graham",
+    "email": "agraham@fujifilm.com",
+    "url": "https://github.com/aGrahamAtFuji/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gtm-support/core.git"
+    "url": "https://github.com/aGrahamAtFuji/gtm-support-core"
   },
-  "bugs": "https://github.com/gtm-support/core/issues",
+  "bugs": "https://github.com/aGrahamAtFuji/gtm-support-core/issues",
   "license": "MIT",
   "devDependencies": {
     "@eslint-types/jsdoc": "~48.2.2",

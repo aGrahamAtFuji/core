@@ -250,6 +250,9 @@ export class GtmSupport {
         this.options.dataLayerName,
       );
 
+      if (rest.ecommerce) {
+        dataLayer.push({ ecommerce: null });
+      }
       dataLayer.push({
         event: event ?? 'interaction',
         target: category,
