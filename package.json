@@ -36,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aGrahamAtFuji/gtm-support-core"
+    "url": "https://github.com/aGrahamAtFuji/core"
   },
-  "bugs": "https://github.com/aGrahamAtFuji/gtm-support-core/issues",
+  "bugs": "https://github.com/aGrahamAtFuji/core/issues",
   "license": "MIT",
   "devDependencies": {
     "@eslint-types/jsdoc": "~48.2.2",
