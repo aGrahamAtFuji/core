@@ -10,7 +10,7 @@
     "ts-check": "tsc",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "prepublishOnly": "pnpm clean && pnpm install && pnpm run build",
+    "prepublishOnly-RunManually": "pnpm clean && pnpm install && pnpm run build",
     "preflight": "pnpm install && run-s format lint ts-check build test"
   },
   "type": "module",
