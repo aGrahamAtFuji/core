@@ -1,6 +1,6 @@
 {
   "name": "@gtm-support/core",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Core implementation for Google Tag Manager support",
   "scripts": {
     "clean": "rimraf coverage .eslintcache lib pnpm-lock.yaml node_modules",
@@ -10,7 +10,7 @@
     "ts-check": "tsc",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "prepublishOnly": "pnpm run clean && pnpm install && pnpm run build",
+    "prepublishOnly": "pnpm clean && pnpm install && pnpm run build",
     "preflight": "pnpm install && run-s format lint ts-check build test"
   },
   "type": "module",
